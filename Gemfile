@@ -32,6 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Include Bootstrap
+gem 'bootstrap-sass', '~> 3.3.0'
+
+# Add AutoPrefixer
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
