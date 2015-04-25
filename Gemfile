@@ -35,6 +35,8 @@ end
 # Include Bootstrap
 gem 'bootstrap-sass', '~> 3.3.0'
 
+gem 'simple_form'
+
 # Add AutoPrefixer
 gem 'autoprefixer-rails'
 
