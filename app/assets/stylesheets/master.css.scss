@@ -30,6 +30,8 @@
 
 .links {
   padding-top:26px;
+  float: right;
+ 
 }
 
 .links a {
@@ -38,6 +40,11 @@
   border-bottom: 1px solid #dfdfdf;
   font-family: 'nobileregular', sans-serif;
   font-weight:bold;
+}
+
+.links a:hover {
+  color:#f84342;
+  text-decoration: none;
 }
 
 header {
@@ -51,24 +58,37 @@ hr {
 h1 {
  font-family: 'nobileregular', sans-serif;
  font-weight: bold;
- font-size:48x;
+ font-size:65px;
+ text-align: center;
 }
 
 h2 {
-  font-family: 'nobilemedium_italic', sans-serif;
+  font-style: italic;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .next-quote {
   color:#f84342;
   font-family: 'nobilemedium_italic', sans-serif;
   font-size:20px;
+
+}
+
+.next-quote:hover {
+  color: #f84342;
 }
 
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
+  font-style: normal;
   text-align: right;
-  font-size: 10px;
+  font-size: 12px;
 
 }
 
@@ -79,3 +99,18 @@ h2 {
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
