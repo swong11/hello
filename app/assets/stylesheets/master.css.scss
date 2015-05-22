@@ -1,3 +1,6 @@
+
+/* scss this type of form lets you variables */
+
 .clear {
   clear:both;
 }
@@ -31,15 +34,13 @@
 .links {
   padding-top:26px;
   float: right;
- 
-}
-
-.links a {
-  color:black;
-  font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
-  font-family: 'nobileregular', sans-serif;
-  font-weight:bold;
+    a {
+    color:black;
+    font-size: 25px;
+    border-bottom: 1px solid #dfdfdf;
+    font-family: 'nobileregular', sans-serif;
+    font-weight:bold;
+  }
 }
 
 .links a:hover {
@@ -116,5 +117,11 @@ h2 span {
 
 @-ms-viewport{
   width: device-width;
+}
+
+/*abbr is an element */
+
+abbr[title="required"] {
+  display: none;
 }
 
